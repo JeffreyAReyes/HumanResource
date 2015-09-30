@@ -95,7 +95,7 @@ Partial Class frmListOfEmployees
         Me.mtgEmployees.RowHeadersDefaultCellStyle = DataGridViewCellStyle5
         Me.mtgEmployees.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
         Me.mtgEmployees.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.mtgEmployees.Size = New System.Drawing.Size(1155, 406)
+        Me.mtgEmployees.Size = New System.Drawing.Size(1158, 406)
         Me.mtgEmployees.TabIndex = 0
         '
         'PictureBox1
@@ -112,7 +112,7 @@ Partial Class frmListOfEmployees
         '
         Me.mtlClose.FontSize = MetroFramework.MetroLinkSize.Medium
         Me.mtlClose.FontWeight = MetroFramework.MetroLinkWeight.Regular
-        Me.mtlClose.Location = New System.Drawing.Point(1046, 81)
+        Me.mtlClose.Location = New System.Drawing.Point(1084, 55)
         Me.mtlClose.Name = "mtlClose"
         Me.mtlClose.Size = New System.Drawing.Size(75, 23)
         Me.mtlClose.TabIndex = 2
@@ -124,7 +124,7 @@ Partial Class frmListOfEmployees
         '
         Me.mtlDelete.FontSize = MetroFramework.MetroLinkSize.Medium
         Me.mtlDelete.FontWeight = MetroFramework.MetroLinkWeight.Regular
-        Me.mtlDelete.Location = New System.Drawing.Point(970, 81)
+        Me.mtlDelete.Location = New System.Drawing.Point(1008, 55)
         Me.mtlDelete.Name = "mtlDelete"
         Me.mtlDelete.Size = New System.Drawing.Size(75, 23)
         Me.mtlDelete.TabIndex = 3
@@ -136,7 +136,7 @@ Partial Class frmListOfEmployees
         '
         Me.mtlEdit.FontSize = MetroFramework.MetroLinkSize.Medium
         Me.mtlEdit.FontWeight = MetroFramework.MetroLinkWeight.Regular
-        Me.mtlEdit.Location = New System.Drawing.Point(894, 81)
+        Me.mtlEdit.Location = New System.Drawing.Point(932, 55)
         Me.mtlEdit.Name = "mtlEdit"
         Me.mtlEdit.Size = New System.Drawing.Size(75, 23)
         Me.mtlEdit.TabIndex = 4
@@ -150,7 +150,7 @@ Partial Class frmListOfEmployees
         Me.mtlAdd.FontWeight = MetroFramework.MetroLinkWeight.Regular
         Me.mtlAdd.Image = CType(resources.GetObject("mtlAdd.Image"), System.Drawing.Image)
         Me.mtlAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.mtlAdd.Location = New System.Drawing.Point(818, 81)
+        Me.mtlAdd.Location = New System.Drawing.Point(856, 55)
         Me.mtlAdd.Name = "mtlAdd"
         Me.mtlAdd.Size = New System.Drawing.Size(75, 23)
         Me.mtlAdd.TabIndex = 5
@@ -215,6 +215,7 @@ Partial Class frmListOfEmployees
         Me.BirthDate.HeaderText = "Birth Date"
         Me.BirthDate.Name = "BirthDate"
         Me.BirthDate.ReadOnly = True
+        Me.BirthDate.Visible = False
         '
         'Gender
         '
