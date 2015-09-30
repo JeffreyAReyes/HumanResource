@@ -17,10 +17,12 @@ Human Resource System Functions:
 3. Payroll slips printing
 
 Programming languages:
+
 1.VB.Net
 2.C#
 
 Database Server
+
 1.MySQL Server
 
 Licence
@@ -28,6 +30,8 @@ Licence
 This software has been released under http://opensource.org/licenses/MIT
 
 Software Libraries used in this project.
+
 1.dennismagno/metroframework-modern-ui  (https://github.com/dennismagno/metroframework-modern-ui)
+
 2.MySqlBackup.NET - MySQL Backup Solution for C#, VB.NET, ASP.NET (https://mysqlbackupnet.codeplex.com)
 
