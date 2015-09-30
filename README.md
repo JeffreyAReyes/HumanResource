@@ -14,6 +14,7 @@ Human Resource System is an application aimed to provide a software solution to 
 Human Resource System Functions:
 1.Recording of employee data, including personal information, salaries, activities, documents, and other pertinent data.
 2.Generation of reports.
+3. Payroll slips printing
 
 Programming languages:
 1.VB.Net
