@@ -87,6 +87,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccess\ModDataAccess.vb" />
+    <Compile Include="FormsListings\frmListOfdepartments.Designer.vb">
+      <DependentUpon>frmListOfdepartments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormsListings\frmListOfdepartments.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormsListings\frmListOfEmployees.Designer.vb">
       <DependentUpon>frmListOfEmployees.vb</DependentUpon>
     </Compile>
@@ -136,6 +142,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormsListings\frmListOfdepartments.resx">
+      <DependentUpon>frmListOfdepartments.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormsListings\frmListOfEmployees.resx">
       <DependentUpon>frmListOfEmployees.vb</DependentUpon>
     </EmbeddedResource>

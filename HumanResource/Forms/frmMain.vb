@@ -36,4 +36,13 @@ Public Class frmMain
             .ShowDialog()
         End With
     End Sub
+
+    Private Sub mtDepartments_Click(sender As Object, e As EventArgs) Handles mtDepartments.Click
+        Dim newfrm As New frmListOfDepartments
+
+        With newfrm
+            .Owner = Me
+            .ShowDialog()
+        End With
+    End Sub
 End Class

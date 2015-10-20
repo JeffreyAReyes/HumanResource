@@ -81,7 +81,7 @@ Partial Class frmListOfEmployees
         Me.mtgEmployees.EnableHeadersVisualStyles = False
         Me.mtgEmployees.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
         Me.mtgEmployees.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.mtgEmployees.Location = New System.Drawing.Point(17, 122)
+        Me.mtgEmployees.Location = New System.Drawing.Point(17, 132)
         Me.mtgEmployees.Name = "mtgEmployees"
         Me.mtgEmployees.ReadOnly = True
         Me.mtgEmployees.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
@@ -95,16 +95,16 @@ Partial Class frmListOfEmployees
         Me.mtgEmployees.RowHeadersDefaultCellStyle = DataGridViewCellStyle5
         Me.mtgEmployees.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
         Me.mtgEmployees.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.mtgEmployees.Size = New System.Drawing.Size(1158, 406)
+        Me.mtgEmployees.Size = New System.Drawing.Size(1158, 396)
         Me.mtgEmployees.TabIndex = 0
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(26, 55)
+        Me.PictureBox1.Location = New System.Drawing.Point(26, 54)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(100, 61)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox1.Size = New System.Drawing.Size(81, 72)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
@@ -112,7 +112,7 @@ Partial Class frmListOfEmployees
         '
         Me.mtlClose.FontSize = MetroFramework.MetroLinkSize.Medium
         Me.mtlClose.FontWeight = MetroFramework.MetroLinkWeight.Regular
-        Me.mtlClose.Location = New System.Drawing.Point(1084, 55)
+        Me.mtlClose.Location = New System.Drawing.Point(1084, 35)
         Me.mtlClose.Name = "mtlClose"
         Me.mtlClose.Size = New System.Drawing.Size(75, 23)
         Me.mtlClose.TabIndex = 2
@@ -124,7 +124,7 @@ Partial Class frmListOfEmployees
         '
         Me.mtlDelete.FontSize = MetroFramework.MetroLinkSize.Medium
         Me.mtlDelete.FontWeight = MetroFramework.MetroLinkWeight.Regular
-        Me.mtlDelete.Location = New System.Drawing.Point(1008, 55)
+        Me.mtlDelete.Location = New System.Drawing.Point(1008, 35)
         Me.mtlDelete.Name = "mtlDelete"
         Me.mtlDelete.Size = New System.Drawing.Size(75, 23)
         Me.mtlDelete.TabIndex = 3
@@ -136,7 +136,7 @@ Partial Class frmListOfEmployees
         '
         Me.mtlEdit.FontSize = MetroFramework.MetroLinkSize.Medium
         Me.mtlEdit.FontWeight = MetroFramework.MetroLinkWeight.Regular
-        Me.mtlEdit.Location = New System.Drawing.Point(932, 55)
+        Me.mtlEdit.Location = New System.Drawing.Point(932, 35)
         Me.mtlEdit.Name = "mtlEdit"
         Me.mtlEdit.Size = New System.Drawing.Size(75, 23)
         Me.mtlEdit.TabIndex = 4
@@ -150,7 +150,7 @@ Partial Class frmListOfEmployees
         Me.mtlAdd.FontWeight = MetroFramework.MetroLinkWeight.Regular
         Me.mtlAdd.Image = CType(resources.GetObject("mtlAdd.Image"), System.Drawing.Image)
         Me.mtlAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.mtlAdd.Location = New System.Drawing.Point(856, 55)
+        Me.mtlAdd.Location = New System.Drawing.Point(856, 35)
         Me.mtlAdd.Name = "mtlAdd"
         Me.mtlAdd.Size = New System.Drawing.Size(75, 23)
         Me.mtlAdd.TabIndex = 5

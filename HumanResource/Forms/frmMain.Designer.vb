@@ -30,6 +30,7 @@ Partial Class frmMain
         Me.mtlSettings = New MetroFramework.Controls.MetroLink()
         Me.hmpWelcome = New MetroFramework.Drawing.Html.HtmlPanel()
         Me.mtDepartments = New MetroFramework.Controls.MetroTile()
+        Me.mtPayroll = New MetroFramework.Controls.MetroTile()
         CType(Me.msmManager, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -110,11 +111,29 @@ Partial Class frmMain
         Me.mtDepartments.UseTileImage = True
         Me.mtDepartments.Visible = False
         '
+        'mtPayroll
+        '
+        Me.mtPayroll.ActiveControl = Nothing
+        Me.mtPayroll.Location = New System.Drawing.Point(174, 219)
+        Me.mtPayroll.Name = "mtPayroll"
+        Me.mtPayroll.Size = New System.Drawing.Size(138, 87)
+        Me.mtPayroll.Style = MetroFramework.MetroColorStyle.Green
+        Me.mtPayroll.TabIndex = 5
+        Me.mtPayroll.Text = "Payroll"
+        Me.mtPayroll.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.mtPayroll.TileImage = CType(resources.GetObject("mtPayroll.TileImage"), System.Drawing.Image)
+        Me.mtPayroll.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.mtPayroll.UseSelectable = True
+        Me.mtPayroll.UseStyleColors = True
+        Me.mtPayroll.UseTileImage = True
+        Me.mtPayroll.Visible = False
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(978, 467)
+        Me.Controls.Add(Me.mtPayroll)
         Me.Controls.Add(Me.mtDepartments)
         Me.Controls.Add(Me.hmpWelcome)
         Me.Controls.Add(Me.mtlSettings)
@@ -140,4 +159,5 @@ Partial Class frmMain
     Friend WithEvents mtlSettings As MetroFramework.Controls.MetroLink
     Friend WithEvents hmpWelcome As MetroFramework.Drawing.Html.HtmlPanel
     Friend WithEvents mtDepartments As MetroFramework.Controls.MetroTile
+    Friend WithEvents mtPayroll As MetroFramework.Controls.MetroTile
 End Class
